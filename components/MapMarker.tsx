@@ -124,6 +124,8 @@ useEffect(() => {
                 src={clickedMarker.images[0]}
                 alt={clickedMarker.name}
                 fill
+                loading="eager"
+                quality={75} 
                 className="object-cover"
                 sizes="500px"
               />
