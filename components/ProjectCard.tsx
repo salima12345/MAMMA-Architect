@@ -49,6 +49,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ imageSrc, title, year, archit
             className="rounded-[5px] object-cover"
             sizes="75px"
             priority={true}
+            loading="eager"
+            quality={75} 
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
             onError={() => setImageError(true)}

@@ -257,6 +257,8 @@ function ArchitectDetails({
               fill
               sizes="116px"
               priority={true}
+              loading="eager"
+              quality={75} 
               placeholder="blur"
               blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
               onError={() => setImageError(true)}

@@ -69,6 +69,8 @@ const ArchitectCard: React.FC<ArchitectCardProps> = ({
             sizes="75px"
             priority={true}
             placeholder="blur"
+            loading="eager"
+            quality={75} 
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
             onError={() => setImageError(true)}
           />

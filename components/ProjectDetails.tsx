@@ -51,6 +51,8 @@ export default function ProjectDetails({ project, architects, onArchitectClick, 
             className="object-cover rounded-[5px]"
             sizes="(max-width: 768px) 100vw, 50vw" 
             priority={true}
+            loading="eager"
+            quality={75} 
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" 
 
@@ -66,6 +68,8 @@ export default function ProjectDetails({ project, architects, onArchitectClick, 
               className="object-cover rounded-[5px]"
               sizes="(max-width: 768px) 100vw, 25vw"
               priority={true}
+              loading="eager"
+              quality={75} 
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" 
             />
@@ -78,6 +82,8 @@ export default function ProjectDetails({ project, architects, onArchitectClick, 
               className="object-cover rounded-[5px]"
               sizes="(max-width: 768px) 100vw, 25vw"
               priority={true}
+              loading="eager"
+              quality={75} 
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" 
             />
@@ -118,6 +124,8 @@ export default function ProjectDetails({ project, architects, onArchitectClick, 
                   className="rounded-full object-cover"
                   sizes="70px" 
                   priority={true}
+                  loading="eager"
+                  quality={75} 
             placeholder="blur"
             blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII=" 
                 />

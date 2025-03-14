@@ -93,6 +93,7 @@ export default function ImageModal({
                     fill
                     className="object-cover rounded-lg"
                     quality={100}
+                    loading="eager"
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
