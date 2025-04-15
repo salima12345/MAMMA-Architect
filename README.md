@@ -2,8 +2,9 @@
 # Mamma  
 
 Interactive architectural mapping platform for visualizing geospatial data.  
-![Image](https://github.com/user-attachments/assets/7601effb-3ad8-4834-8ae8-c33ece85a473)
+![Image](https://github.com/user-attachments/assets/018febb6-638c-4cdd-8589-b11edd662519)
 
+![Image](https://github.com/user-attachments/assets/a8c50278-806c-4fe9-b7da-362295629dfc)
 
 ## Features  
 - Dynamic basemap switching  
